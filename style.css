@@ -1,0 +1,57 @@
+body{
+	background-color: rgb(252, 248, 23);
+}
+.container{
+	background-color: white;
+	border-radius: 17px;
+	border: 1px solid black;
+	box-shadow: 7px 7px 0 -2px black;
+	width: 25%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4cm;
+	margin-top: 4cm;
+}
+div{
+	margin-bottom: 1rem;
+}
+h1{
+	font-size: 25px;
+}
+button{
+	background-color: rgb(252, 249, 46);
+	width: 7rem;
+	outline-style: none;
+	border-style: none;
+	
+		color: black;
+		
+		height: 0.6cm;
+		
+		border-radius: 7px;
+		margin-bottom: 10px;
+		  outline-style: none;
+		border-style: none;
+}
+button:hover, a:hover{
+    background-color:rgb(252, 249, 46);
+    color: black;
+    cursor: pointer;
+}
+h3{
+	padding-top: 1.5rem;
+}
+.foot{
+	padding-bottom: 1rem;
+	margin-bottom: 0.5cm;
+}
+img{
+	border-radius: 10px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="container"] {
+      width: 90%;
+    }
+  }
